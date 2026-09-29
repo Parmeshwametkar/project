@@ -3,6 +3,7 @@ import { ArrowRight, Code2, ShieldCheck, Zap, Layers, CheckCircle2, ChevronRight
 import { Project } from '../types.ts';
 import { projectsData } from '../data/projectsData.ts';
 import { servicesData } from '../data/servicesData.ts';
+import heroWorkspaceImg from '../assets/images/hero_software_workspace_1790698348947.jpg';
 
 interface HomeViewProps {
   onNavigate: (tab: string, meta?: any) => void;
@@ -86,7 +87,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-2xl">
                 <img
-                  src="/src/assets/images/hero_software_workspace_1790698348947.jpg"
+                  src={heroWorkspaceImg}
                   alt="SoftwareDeveloper077 engineering studio workstation"
                   referrerPolicy="no-referrer"
                   className="h-full w-full object-cover aspect-[16/10]"

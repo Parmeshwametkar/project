@@ -1,4 +1,7 @@
 import { Project } from '../types.ts';
+import hotelImg from '../assets/images/project_hotel_management_1790698363486.jpg';
+import bankingImg from '../assets/images/project_banking_system_1790698375757.jpg';
+import restaurantImg from '../assets/images/project_restaurant_pos_1790698388696.jpg';
 
 export const projectsData: Project[] = [
   {
@@ -22,7 +25,7 @@ export const projectsData: Project[] = [
       'Modular database schema partitioning rooms, bookings, and billing ledgers',
       'Sub-50ms query latency on room availability checks using indexed date ranges'
     ],
-    image: '/src/assets/images/project_hotel_management_1790698363486.jpg',
+    image: hotelImg,
     timeline: '8 Weeks Delivery',
     metrics: [
       { label: 'Booking Sync', value: 'Instant' },
@@ -51,7 +54,7 @@ export const projectsData: Project[] = [
       'Cryptographically hashed audit log chain for tamper evidence',
       'Strict input sanitization and token expiry policies'
     ],
-    image: '/src/assets/images/project_banking_system_1790698375757.jpg',
+    image: bankingImg,
     timeline: '10 Weeks Delivery',
     metrics: [
       { label: 'Ledger Audit', value: '100% Immutable' },
@@ -80,7 +83,7 @@ export const projectsData: Project[] = [
       'WebSocket broadcast for zero-delay order propagation to kitchen screens',
       'Optimized indexed queries for fast live inventory recalculation'
     ],
-    image: '/src/assets/images/project_restaurant_pos_1790698388696.jpg',
+    image: restaurantImg,
     timeline: '6 Weeks Delivery',
     metrics: [
       { label: 'Kitchen Sync', value: '< 100ms' },
